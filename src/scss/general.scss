@@ -13,7 +13,7 @@ body {
     height: 100%;
     @include font-regular;
     font-size: 1em;
-    line-height: 1.4;
+    line-height: 1.5;
     letter-spacing: .025em;
     color: $white;
     margin: 0;
@@ -21,14 +21,20 @@ body {
     background-color: $white;
 }
 
-#app {
-    width: 100%;
-    height: 100%;
-}
-
 section {
     width: 100%;
     min-height: 100%;
+}
+
+h2 {
+    @include font-bold;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin: 0 0 .25em 0;
+}
+
+p {
+    margin: 0 0 1em 0;
 }
 
 a {
@@ -39,4 +45,9 @@ a {
     &:hover {
         text-decoration: underline;
     }
+}
+
+
+strong {
+    @include font-semibold;
 }

@@ -28,7 +28,7 @@
             appNavigation: Navigation,
             appIntro: Intro,
             appWork: Work,
-            appAbout: About
+            appAbout: About,
         },
         methods: {
             handleScroll() {
@@ -36,35 +36,25 @@
 
                 if (this.scrolled = window.scrollY > viewportHeight) {
                     this.isScrolled = true;
-
-                    var newScrollPosition = window.scrollY;
-                    this.scrollPosition = newScrollPosition;
                 }
                 else {
                     this.isScrolled = false;
                 }
 
                 var scrollTop = window.pageYOffset,
-                    intro = document.getElementById('intro'),
-                    introHeight = intro.clientHeight,
                     work = document.getElementById('work'),
-                    workHeight = work.clientHeight,
+                    workTop = work.offsetTop,
                     about = document.getElementById('about'),
-                    aboutHeight = about.clientHeight;
+                    aboutHeight = about.offsetTop;
 
-                if (newScrollPosition > introHeight && newScrollPosition < workHeight) {
+                if (scrollTop < aboutHeight) {
                     this.workActive = true;
                     this.aboutActive = false;
                 }
 
-                else if (newScrollPosition > workHeight) {
+                if (scrollTop >= aboutHeight) {
                     this.workActive = false;
                     this.aboutActive = true;
-                }
-
-                else {
-                    this.workActive = false;
-                    this.aboutActive = false;
                 }
             }
         },
@@ -79,4 +69,11 @@
 
 <style lang="scss">
     @import "./scss/main.scss";
+
+    #app {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+
 </style>

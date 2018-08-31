@@ -1,16 +1,15 @@
 <template>
     <nav class="c-nav" :class="{'c-nav--scrolled': isScrolled}">
         <ul>
-            <li><a href="#" v-scroll-to="'#intro'">Intro</a></li>
-            <li><a href="#" v-scroll-to="'#work'" :class="{'active': workActive}">Work</a></li>
-            <li><a href="#" v-scroll-to="'#about'" :class="{'active': aboutActive}">About</a></li>
+            <li :class="{'active': workActive}"><a href="#" v-scroll-to="'#work'">Work</a></li>
+            <li :class="{'active': aboutActive}"><a href="#" v-scroll-to="'#about'">About</a></li>
         </ul>
     </nav>
 </template>
 
 <script>
     export default {
-        name: 'nav',
+        name: 'navigation',
         data () {
             return {
             }
@@ -42,9 +41,23 @@
         }
 
         li {
+            position: relative;
             list-style: none;
-            display: inline;
+            display: inline-block;
             margin: 0 2em;
+
+            &::before {
+                position: absolute;
+                left: -1em;
+                top: 50%;
+                transform: translateY(-50%);
+                width: 0;
+                height: 0;
+                content: '';
+                border-top: 6px solid transparent;
+                border-left: 8px solid $black;
+                border-bottom: 6px solid transparent;
+            }
 
             a {
                 @include font-bold;
@@ -53,7 +66,10 @@
         }
 
         .active {
-            text-decoration: underline;
+
+            &::before {
+                border-left-color: $white;
+            }
         }
     }
 </style>

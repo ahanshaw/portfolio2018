@@ -34,8 +34,12 @@
         background-color: $black;
         z-index: 100;
 
+        @include breakpoint(widescreen) {
+            padding: 7em 0;
+        }
+
         &__container {
-            @include container;
+            @include container(1200px);
             display: flex;
             align-items: stretch;
             flex-wrap: wrap;
@@ -55,11 +59,19 @@
             @include breakpoint(tablet) {
                 margin-bottom: .125em;
             }
+
+            @include breakpoint(widescreen) {
+                font-size: 6vw;
+            }
         }
 
         p {
             font-size: 6vw;
             margin: 0 0 2em 0;
+
+            @include breakpoint(widescreen) {
+                font-size: 4vw;
+            }
         }
 
         a {
@@ -78,21 +90,33 @@
                         border-left .3s ease,
                         border-right .3s ease;
 
-            @include breakpoint(tablet) {
+            @include breakpoint(desktop) {
                 border-top-width: 50px;
                 border-right-width: 40px;
                 border-left-width: 40px;
+            }
+
+            @include breakpoint(widescreen) {
+                border-top-width: 60px;
+                border-right-width: 50px;
+                border-left-width: 50px;
             }
 
              &:hover {
                  border-top-width: 50px;
                  border-right-width: 40px;
                  border-left-width: 40px;
-                 
-                 @include breakpoint(tablet) {
+
+                 @include breakpoint(desktop) {
                      border-top-width: 70px;
                      border-right-width: 50px;
                      border-left-width: 50px;
+                 }
+
+                 @include breakpoint(widescreen) {
+                     border-top-width: 80px;
+                     border-right-width: 60px;
+                     border-left-width: 60px;
                  }
              }
         }

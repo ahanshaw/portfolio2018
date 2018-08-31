@@ -2,10 +2,15 @@
     <section id="work" class="c-work">
         <div class="c-work__container">
             <div v-for="project in projectList" :key="project.title" class="c-work__item">
-                <a :href="project.url"><img :src="project.image" :alt="project.title" /></a>
-                <h2><a :href="project.url">{{ project.title }}</a></h2>
-                <p>Platform: {{ project.platform }}</p>
-                <p>{{ project.description }}</p>
+                <div class="c-work__image">
+                    <a :href="project.url" target="_blank" rel="noopener noreferrer"><img :src="project.image" :alt="project.title" /></a>
+                </div>
+                <div class="c-work__desc">
+                    <h2><a :href="project.url" target="_blank" rel="noopener noreferrer">{{ project.title }}</a></h2>
+                    <p><strong>Platform:</strong> {{ project.platform }}<br />
+                    <strong>Date:</strong> {{ project.date }}</p>
+                    <div v-html="project.description">></div>
+                </div>
             </div>
         </div>
     </section>
@@ -36,7 +41,7 @@
         background-color: $white;
 
         &__container {
-            @include container;
+            @include container(1200px);
         }
 
         &__item {
@@ -47,6 +52,7 @@
             }
 
             h2 {
+                margin-top: 1.5em;
 
                 a {
                     color: $black;
@@ -57,6 +63,23 @@
                 display: block;
                 width: 100%;
                 border: 1px solid rgba($black, .1);
+            }
+        }
+
+        &__image {
+
+            @include breakpoint(laptop) {
+                @include container(800px);
+            }
+
+        }
+
+        &__desc {
+            @include breakpoint(tablet) {
+                @include container(500px);
+            }
+            @include breakpoint(laptop) {
+                @include container(600px);
             }
         }
     }
