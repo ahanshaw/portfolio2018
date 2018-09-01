@@ -54,14 +54,17 @@
                 width: 0;
                 height: 0;
                 content: '';
-                border-top: 6px solid transparent;
-                border-left: 8px solid $black;
-                border-bottom: 6px solid transparent;
+                margin-top: 1px;
+                border-top: 5px solid transparent;
+                border-left: 7px solid $black;
+                border-bottom: 5px solid transparent;
             }
 
             a {
-                @include font-bold;
                 display: inline;
+                @include font-semibold;
+                font-size: .8em;
+                text-transform: uppercase;
             }
         }
 

@@ -1,24 +1,45 @@
 <template>
     <section id="intro" class="c-intro">
         <div class="c-intro__container">
-            <div>
+            <div class="c-intro__copy">
                 <h1>Angela Hanshaw</h1>
                 <p>Front-End Developer</p>
             </div>
-            <a v-scroll-to="'#work'" href="#work"></a>
+            <div class="c-intro__link">
+                <a v-scroll-to="'#work'" href="#work">
+                    <app-otter></app-otter>
+                </a>
+            </div>
         </div>
     </section>
 </template>
 
 <script>
+    import Otter from './Otter.vue'
+
     export default {
         name: 'intro',
         data () {
             return {
+                active: false
             }
         },
         methods: {
+            arrowHover() {
+                var circle = document.getElementById('circle'),
+                    tlAnimation = new TimelineMax();
 
+                tlAnimation.to(circle, 1, {opacity: 1, yPercent: -200, ease: Power0.easeNone, repeat: 0});
+            },
+            arrowClick() {
+                var circle = document.getElementById('circle'),
+                    tlAnimation = new TimelineMax();
+
+                tlAnimation.to(circle, 1, {opacity: 0, yPercent: 0, ease: Power0.easeNone, repeat: 0});
+            }
+        },
+        components: {
+            appOtter: Otter
         }
     }
 </script>
@@ -34,7 +55,15 @@
         background-color: $black;
         z-index: 100;
 
-        @include breakpoint(widescreen) {
+        @include breakpoint(tablet) {
+            padding: 5em 0;
+        }
+
+        @include breakpoint(laptop) {
+            padding: 6em 0;
+        }
+
+        @include breakpoint(desktop) {
             padding: 7em 0;
         }
 
@@ -47,21 +76,31 @@
             text-align: center;
         }
 
-        div {
+        &__copy,
+        &__link {
             position: relative;
             width: 100%;
         }
 
-        h1 {
-            font-size: 10vw;
-            margin: 0 0 .5em 0;
+        &__copy {
+            align-self: flex-start;
+        }
+
+        &__link {
+            align-self: flex-end;
+            padding-bottom: 3.75em;
+            padding-left: 7em;
 
             @include breakpoint(tablet) {
-                margin-bottom: .125em;
+                padding-bottom: 5.75em;
             }
 
-            @include breakpoint(widescreen) {
-                font-size: 6vw;
+            @include breakpoint(laptop) {
+                padding-bottom: 3.75em;
+            }
+
+            #circle {
+                opacity: 0;
             }
         }
 
@@ -72,53 +111,6 @@
             @include breakpoint(widescreen) {
                 font-size: 4vw;
             }
-        }
-
-        a {
-            display: block;
-            position: absolute;
-            bottom: 0;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 0;
-            height: 0;
-            margin: 0 auto;
-            border-top: 40px solid $white;
-            border-right: 30px solid transparent;
-            border-left: 30px solid transparent;
-            transition: border-top .3s ease,
-                        border-left .3s ease,
-                        border-right .3s ease;
-
-            @include breakpoint(desktop) {
-                border-top-width: 50px;
-                border-right-width: 40px;
-                border-left-width: 40px;
-            }
-
-            @include breakpoint(widescreen) {
-                border-top-width: 60px;
-                border-right-width: 50px;
-                border-left-width: 50px;
-            }
-
-             &:hover {
-                 border-top-width: 50px;
-                 border-right-width: 40px;
-                 border-left-width: 40px;
-
-                 @include breakpoint(desktop) {
-                     border-top-width: 70px;
-                     border-right-width: 50px;
-                     border-left-width: 50px;
-                 }
-
-                 @include breakpoint(widescreen) {
-                     border-top-width: 80px;
-                     border-right-width: 60px;
-                     border-left-width: 60px;
-                 }
-             }
         }
     }
 </style>

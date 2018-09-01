@@ -9,7 +9,7 @@
                     <h2><a :href="project.url" target="_blank" rel="noopener noreferrer">{{ project.title }}</a></h2>
                     <p><strong>Platform:</strong> {{ project.platform }}<br />
                     <strong>Date:</strong> {{ project.date }}</p>
-                    <div v-html="project.description">></div>
+                    <div v-html="project.description"></div>
                 </div>
             </div>
         </div>
@@ -55,7 +55,30 @@
                 margin-top: 1.5em;
 
                 a {
+                    position: relative;
+                    display: inline;
                     color: $black;
+
+                    &::after {
+                        position: absolute;
+                        right: -.75em;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        width: 0;
+                        height: 0;
+                        content: '';
+                        border-top: 7px solid transparent;
+                        border-left: 9px solid $white;
+                        border-bottom: 7px solid transparent;
+                    }
+
+                    &:hover {
+                        text-decoration: none;
+
+                        &::after {
+                            border-left: 8px solid $black;
+                        }
+                    }
                 }
             }
 

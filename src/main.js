@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import VueScrollTo from 'vue-scrollto'
+import TweenMax from 'greensock'
 import App from './App.vue'
 
 Vue.config.productionTip = false
