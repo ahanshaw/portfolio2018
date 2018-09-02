@@ -40,7 +40,7 @@
         position: relative;
         padding: 7em 0 5em 0;
         color: $black;
-        background-color: rgba($black, .15);
+        background-color: #e4e5e6;
 
         @include breakpoint(tablet) {
             padding: 8em 0 6em 0;

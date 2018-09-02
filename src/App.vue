@@ -8,6 +8,7 @@
 </template>
 
 <script>
+    import { bus } from './main';
     import Navigation from './components/Navigation.vue'
     import Intro from './components/Intro.vue'
     import Work from './components/Work.vue'
@@ -42,20 +43,27 @@
                 }
 
                 var scrollTop = window.pageYOffset,
+                    intro = document.getElementById('intro'),
+                    introTop = intro.offsetTop,
                     work = document.getElementById('work'),
                     workTop = work.offsetTop,
                     about = document.getElementById('about'),
-                    aboutHeight = about.offsetTop;
+                    aboutTop = about.offsetTop;
 
-                if (scrollTop < aboutHeight) {
+                if (scrollTop > introTop && scrollTop < aboutTop) {
                     this.workActive = true;
                     this.aboutActive = false;
                 }
 
-                if (scrollTop >= aboutHeight) {
+                if (scrollTop >= aboutTop) {
                     this.workActive = false;
                     this.aboutActive = true;
                 }
+
+                if (scrollTop > workTop + 500) {
+                    bus.$emit('setOtterText', 'Thanks for looking!');
+                }
+
             }
         },
         created() {

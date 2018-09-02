@@ -62,9 +62,13 @@
 
             a {
                 display: inline;
-                @include font-semibold;
+                @include font-bold;
                 font-size: .8em;
                 text-transform: uppercase;
+
+                @supports (font-variation-settings: normal) {
+                    @include font-600;
+                }
             }
         }
 

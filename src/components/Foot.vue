@@ -29,9 +29,15 @@
         background-color: $black;
 
         p {
+            @include font-bold;
             font-size: .75em;
+            letter-spacing: .05em;
             color: $white;
             margin: 0;
+
+            @supports (font-variation-settings: normal) {
+                @include font-600;
+            }
         }
     }
 </style>

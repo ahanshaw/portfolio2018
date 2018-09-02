@@ -51,7 +51,7 @@
     .c-intro {
         position: relative;
         height: 100%;
-        padding: 4em 0;
+        padding: 4em 0 0 0;
         background-color: $black;
         z-index: 100;
 
@@ -88,25 +88,17 @@
 
         &__link {
             align-self: flex-end;
-            padding-bottom: 3.75em;
-            padding-left: 7em;
-
-            @include breakpoint(tablet) {
-                padding-bottom: 5.75em;
-            }
-
-            @include breakpoint(laptop) {
-                padding-bottom: 3.75em;
-            }
-
-            #circle {
-                opacity: 0;
-            }
+            overflow: hidden;
         }
 
         p {
-            font-size: 6vw;
+            @include font-regular;
+            font-size: 5vw;
             margin: 0 0 2em 0;
+
+            @supports (font-variation-settings: normal) {
+                @include font-300;
+            }
 
             @include breakpoint(widescreen) {
                 font-size: 4vw;
