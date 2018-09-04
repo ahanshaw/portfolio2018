@@ -3,7 +3,10 @@
         "title": "Elevate",
         "url": "https://www.elevatedigitalcommerce.com",
         "platform": "Statamic",
-        "image": "/images/elevate.jpg",
+        "image1": "/images/elevate.jpg",
+        "image1alt": "Elevate homepage",
+        "image2": "/images/elevate-code.jpg",
+        "image2alt": "Elevte blog post code",
         "role": "Front-End Developer",
         "date": "ongoing",
         "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tellus augue, dignissim cursus nulla eu, consequat gravida ante. Donec eu egestas eros. Nulla tincidunt, urna eget rutrum commodo, justo odio tempor sapien, sit amet sodales metus diam ac elit. Nam dictum enim ac tellus varius lacinia. Ut eleifend orci leo, eu bibendum lacus commodo ut. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam non lorem eu lorem tempus consequat. Curabitur sit amet enim nec est finibus bibendum. Integer eget tellus vel eros malesuada pulvinar et id dolor. Donec augue ipsum, ullamcorper eu mattis eget, interdum et purus. Morbi et efficitur purus. Duis viverra nunc ipsum, vel dignissim ipsum pellentesque id. Sed turpis odio, ultrices non dolor vitae, interdum tempus ipsum. Nam vel vehicula diam.</p>"
@@ -12,7 +15,7 @@
         "title": "Seed Phytonutrients",
         "url": "https://www.seedphytonutrients.com/",
         "platform": "Craft CMS",
-        "image": "/images/seed.jpg",
+        "image1": "/images/seed.jpg",
         "role": "Front-End Developer",
         "date": "2018",
         "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tellus augue, dignissim cursus nulla eu, consequat gravida ante. Donec eu egestas eros. Nulla tincidunt, urna eget rutrum commodo, justo odio tempor sapien, sit amet sodales metus diam ac elit. Nam dictum enim ac tellus varius lacinia. Ut eleifend orci leo, eu bibendum lacus commodo ut. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam non lorem eu lorem tempus consequat. Curabitur sit amet enim nec est finibus bibendum. Integer eget tellus vel eros malesuada pulvinar et id dolor. Donec augue ipsum, ullamcorper eu mattis eget, interdum et purus. Morbi et efficitur purus. Duis viverra nunc ipsum, vel dignissim ipsum pellentesque id. Sed turpis odio, ultrices non dolor vitae, interdum tempus ipsum. Nam vel vehicula diam.</p>"
@@ -21,7 +24,7 @@
         "title": "HanesInk",
         "url": "https://www.hanesink.com/",
         "platform": "IBM Websphere",
-        "image": "/images/hanesink.jpg",
+        "image1": "/images/hanesink.jpg",
         "role": "Front-End Developer",
         "date": "2016",
         "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tellus augue, dignissim cursus nulla eu, consequat gravida ante. Donec eu egestas eros. Nulla tincidunt, urna eget rutrum commodo, justo odio tempor sapien, sit amet sodales metus diam ac elit. Nam dictum enim ac tellus varius lacinia. Ut eleifend orci leo, eu bibendum lacus commodo ut. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam non lorem eu lorem tempus consequat. Curabitur sit amet enim nec est finibus bibendum. Integer eget tellus vel eros malesuada pulvinar et id dolor. Donec augue ipsum, ullamcorper eu mattis eget, interdum et purus. Morbi et efficitur purus. Duis viverra nunc ipsum, vel dignissim ipsum pellentesque id. Sed turpis odio, ultrices non dolor vitae, interdum tempus ipsum. Nam vel vehicula diam.</p>"

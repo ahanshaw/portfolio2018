@@ -63,7 +63,6 @@
                 if (scrollTop > workTop + 500) {
                     bus.$emit('setOtterText', 'Thanks for looking!');
                 }
-
             }
         },
         created() {

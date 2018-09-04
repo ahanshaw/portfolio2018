@@ -24,6 +24,9 @@
                 active: false
             }
         },
+        components: {
+            appOtter: Otter
+        },
         methods: {
             arrowHover() {
                 var circle = document.getElementById('circle'),
@@ -37,9 +40,6 @@
 
                 tlAnimation.to(circle, 1, {opacity: 0, yPercent: 0, ease: Power0.easeNone, repeat: 0});
             }
-        },
-        components: {
-            appOtter: Otter
         }
     }
 </script>
@@ -93,11 +93,19 @@
 
         p {
             @include font-regular;
-            font-size: 5vw;
+            font-size: 6vw;
             margin: 0 0 2em 0;
 
             @supports (font-variation-settings: normal) {
-                @include font-300;
+                @include font-500;
+            }
+
+            @include breakpoint(laptop) {
+                font-size: 5vw;
+
+                @supports (font-variation-settings: normal) {
+                    @include font-400;
+                }
             }
 
             @include breakpoint(widescreen) {
