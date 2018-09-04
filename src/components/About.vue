@@ -3,8 +3,10 @@
         <div class="about__container">
             <div class="about__item">
                 <h2>About This Site</h2>
-                <p>I created this site using Vue.js and Vue CLI. The work items are generated from a JSON file to make adding new projects easy. Most animations use CSS transitions, except for my otter pal, which was created with an SVG and Greensock. (Did you miss him? <a href="#" v-scroll-to="'#intro'">Scroll back to the top</a> and hover over/click on the giant arrow.)</p>
-                <p>The site is responsive (of course!), and was built&nbsp;mobile-first. The font family is either Avenir Next Variable, if your browser supports variable fonts, or Open Sans, if it doesn&#8217;t.</p>
+                <p>I created this site using Vue.js and Vue CLI. The work items are generated from a JSON file to make adding new projects&nbsp;easy.</p>
+                <p>Most animations use CSS transitions, except for my otter pal, who was created with an SVG and Greensock. (Did you miss him? <a href="#" v-scroll-to="'#intro'">Scroll back to the top</a> and hover over/click on the giant&nbsp;arrow.)</p>
+                <p>The font family is either Avenir Next Variable, if your browser supports variable fonts, or Open Sans, if it&nbsp;doesn&#8217;t.</p>
+                <p>The site is responsive (of course!), and was built&nbsp;mobile-first. It was tested in IE11 and in the latest versions of Edge, Chrome, Safari, and&nbsp;Firefox.</p>
             </div>
             <div class="about__item">
                 <h2>About Me</h2>
@@ -74,6 +76,12 @@
             @include breakpoint(laptop) {
                 flex: 0 0 calc(50% - 3em);
                 margin-bottom: 0;
+
+                /// IE11 fix
+                @media all and (-ms-high-contrast:none) {
+                    flex: 0 0 50%;
+                    margin: 0 1.5em
+                }
             }
         }
     }
