@@ -55,13 +55,16 @@
         }
 
         a {
-            margin-left: 1em;
+            margin-left: 1.5em;
+
+            @include breakpoint(tablet) {
+                margin-left: 2em;
+            }
         }
 
         svg {
             width: 1.25em;
             height: 1.25em;
-            margin-left: 1em;
         }
 
         .linkedin {

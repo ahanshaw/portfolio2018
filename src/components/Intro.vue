@@ -51,9 +51,10 @@
     .intro {
         position: relative;
         height: 100%;
-        padding: 4em 0 0 0;
+        padding: 3em 0 0 0;
         background-color: $black;
         z-index: 100;
+        overflow: hidden;
 
         @include breakpoint(tablet) {
             padding: 5em 0;
@@ -136,6 +137,10 @@
         &__link {
             align-self: flex-end;
             overflow: hidden;
+
+            a {
+                text-decoration: none;
+            }
         }
     }
 </style>
