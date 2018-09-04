@@ -58,7 +58,7 @@
             margin-left: 1.5em;
 
             @include breakpoint(tablet) {
-                margin-left: 2em;
+                margin-left: 3em;
             }
         }
 

@@ -42,7 +42,7 @@
 
     .about {
         position: relative;
-        padding: 7em 0 5em 0;
+        padding: 6em 0;
         color: $black;
         background-color: $gray;
 

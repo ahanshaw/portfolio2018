@@ -38,7 +38,7 @@
     @import "./../scss/main.scss";
 
     .work {
-        padding: 7em 0 .5em 0;
+        padding: 6em 0 2em 0;
         color: $black;
         background-color: $white;
 
@@ -104,10 +104,13 @@
                         width: 0;
                         height: 0;
                         content: '';
-                        margin-top: -2px;
                         border-top: 7px solid transparent;
                         border-left: 9px solid $black;
                         border-bottom: 7px solid transparent;
+
+                        @include breakpoint(laptop) {
+                            margin-top: -2px;
+                        }
                     }
 
                     &:hover {

@@ -36,7 +36,7 @@
         transition: top .5s ease;
 
         ul {
-            margin: 2em 0;
+            margin: 1em 0;
             padding: 0;
             text-align: center;
         }
@@ -55,9 +55,14 @@
                 width: 0;
                 height: 0;
                 content: '';
+                margin-top: 1px;
                 border-top: 5px solid transparent;
                 border-left: 7px solid $black;
                 border-bottom: 5px solid transparent;
+
+                @include breakpoint(tablet) {
+                    margin-top: 0;
+                }
             }
 
             a {
