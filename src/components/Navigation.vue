@@ -1,6 +1,7 @@
 <template>
-    <nav class="c-nav" :class="{'c-nav--scrolled': isScrolled}">
+    <nav class="nav" :class="{'nav--scrolled': isScrolled}">
         <ul>
+            <li :class="{'active': introActive}"><a href="#" v-scroll-to="'#intro'">Intro</a></li>
             <li :class="{'active': workActive}"><a href="#" v-scroll-to="'#work'">Work</a></li>
             <li :class="{'active': aboutActive}"><a href="#" v-scroll-to="'#about'">About</a></li>
         </ul>
@@ -14,7 +15,7 @@
             return {
             }
         },
-        props: ['isScrolled', 'workActive', 'aboutActive'],
+        props: ['isScrolled', 'introActive', 'workActive', 'aboutActive'],
         methods: {
 
         }
@@ -25,7 +26,7 @@
 
     @import "./../scss/main.scss";
 
-    .c-nav {
+    .nav {
         position: fixed;
         top: 0;
         left: 0;
@@ -54,7 +55,6 @@
                 width: 0;
                 height: 0;
                 content: '';
-                margin-top: 1px;
                 border-top: 5px solid transparent;
                 border-left: 7px solid $black;
                 border-bottom: 5px solid transparent;
@@ -65,9 +65,15 @@
                 @include font-bold;
                 font-size: .8em;
                 text-transform: uppercase;
+                text-decoration: none;
+                color: $white;
 
                 @supports (font-variation-settings: normal) {
                     @include font-600;
+                }
+
+                &:hover {
+                    text-decoration: underline;
                 }
             }
         }

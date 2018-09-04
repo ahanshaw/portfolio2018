@@ -1,6 +1,6 @@
 <template>
     <div id="app">
-        <app-navigation :isScrolled="isScrolled" :workActive="workActive" :aboutActive="aboutActive"></app-navigation>
+        <app-navigation :isScrolled="isScrolled" :introActive="introActive" :workActive="workActive" :aboutActive="aboutActive"></app-navigation>
         <app-intro></app-intro>
         <app-work></app-work>
         <app-about></app-about>
@@ -21,6 +21,7 @@
                 isScrolled: false,
                 scrollPosition: 0,
                 activeElement: '',
+                introActive: true,
                 workActive: false,
                 aboutActive: false
             }
@@ -50,12 +51,20 @@
                     about = document.getElementById('about'),
                     aboutTop = about.offsetTop;
 
+                if (scrollTop > workTop) {
+                    this.introActive = true;
+                    this.workActive = false;
+                    this.aboutActive = false;
+                }
+
                 if (scrollTop > introTop && scrollTop < aboutTop) {
+                    this.introActive = false;
                     this.workActive = true;
                     this.aboutActive = false;
                 }
 
                 if (scrollTop >= aboutTop) {
+                    this.introActive = false;
                     this.workActive = false;
                     this.aboutActive = true;
                 }

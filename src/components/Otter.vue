@@ -19,7 +19,7 @@
         name: 'otter',
         data () {
             return {
-                speech: 'You otter look at her portfolio.',
+                speech: 'You otter look at this portfolio.',
                 pageScrolled: false
             }
         },
@@ -39,8 +39,8 @@
                 }
 
                 tlAnimation.to(otter, 1.5, {opacity: 1, yPercent: -60, ease: Elastic.easeOut.config(1, 0.3), repeat: 0}, 'otter');
-                tlAnimation.to(speech, .75, {opacity: 1, ease: Power1.easeInOut, delay: .5, repeat: 0}, 'otter');
-                tlAnimation.to(text, .75, {opacity: 1, ease: Power1.easeInOut, delay: .5, repeat: 0}, 'otter');
+                tlAnimation.to(speech, .75, {opacity: 1, ease: Power1.easeInOut, delay: .25, repeat: 0}, 'otter');
+                tlAnimation.to(text, .75, {opacity: 1, ease: Power1.easeInOut, delay: .25, repeat: 0}, 'otter');
             }
         },
         created() {

@@ -1,32 +1,36 @@
 [
     {
+        "id": 1,
         "title": "Elevate",
         "url": "https://www.elevatedigitalcommerce.com",
         "platform": "Statamic",
         "image1": "/images/elevate.jpg",
         "image1alt": "Elevate homepage",
         "image2": "/images/elevate-code.jpg",
-        "image2alt": "Elevte blog post code",
-        "role": "Front-End Developer",
-        "date": "ongoing",
-        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tellus augue, dignissim cursus nulla eu, consequat gravida ante. Donec eu egestas eros. Nulla tincidunt, urna eget rutrum commodo, justo odio tempor sapien, sit amet sodales metus diam ac elit. Nam dictum enim ac tellus varius lacinia. Ut eleifend orci leo, eu bibendum lacus commodo ut. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam non lorem eu lorem tempus consequat. Curabitur sit amet enim nec est finibus bibendum. Integer eget tellus vel eros malesuada pulvinar et id dolor. Donec augue ipsum, ullamcorper eu mattis eget, interdum et purus. Morbi et efficitur purus. Duis viverra nunc ipsum, vel dignissim ipsum pellentesque id. Sed turpis odio, ultrices non dolor vitae, interdum tempus ipsum. Nam vel vehicula diam.</p>"
+        "image2alt": "code for the Elevte blog post template",
+        "role": "Front-End Developer, Designer",
+        "date": "2018",
+        "description": "<p>I created all Statamic templates and the CSS for this agency website. Highlights include a show-more feature on the main blog page created using JSON and Javascript, performant images using srcset (and, of course, image optimization), and a pre-holiday planning checklist with animations created using Greensock. I also designed and built the blog&nbsp;pages.</p>"
     },
     {
+        "id": 2,
         "title": "Seed Phytonutrients",
-        "url": "https://www.seedphytonutrients.com/",
         "platform": "Craft CMS",
         "image1": "/images/seed.jpg",
+        "image1alt": "Seed Phytonutrients homepage",
+        "image2": "/images/seed-scss.jpg",
+        "image2alt": "Sass code for the Seed Phytonutrients product grid",
         "role": "Front-End Developer",
         "date": "2018",
-        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tellus augue, dignissim cursus nulla eu, consequat gravida ante. Donec eu egestas eros. Nulla tincidunt, urna eget rutrum commodo, justo odio tempor sapien, sit amet sodales metus diam ac elit. Nam dictum enim ac tellus varius lacinia. Ut eleifend orci leo, eu bibendum lacus commodo ut. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam non lorem eu lorem tempus consequat. Curabitur sit amet enim nec est finibus bibendum. Integer eget tellus vel eros malesuada pulvinar et id dolor. Donec augue ipsum, ullamcorper eu mattis eget, interdum et purus. Morbi et efficitur purus. Duis viverra nunc ipsum, vel dignissim ipsum pellentesque id. Sed turpis odio, ultrices non dolor vitae, interdum tempus ipsum. Nam vel vehicula diam.</p>"
+        "description": "<p>This marketing website was created to promote a new beauty brand prior to its ecommerce site launch. I created all Craft templates as well as the site&#8217;s CSS. Highlights include reusable components; a custom, accessible modal created with Javascript; and an animated search&nbsp;form.</p>"
     },
     {
+        "id": 3,
         "title": "HanesInk",
-        "url": "https://www.hanesink.com/",
         "platform": "IBM Websphere",
         "image1": "/images/hanesink.jpg",
         "role": "Front-End Developer",
         "date": "2016",
-        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tellus augue, dignissim cursus nulla eu, consequat gravida ante. Donec eu egestas eros. Nulla tincidunt, urna eget rutrum commodo, justo odio tempor sapien, sit amet sodales metus diam ac elit. Nam dictum enim ac tellus varius lacinia. Ut eleifend orci leo, eu bibendum lacus commodo ut. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam non lorem eu lorem tempus consequat. Curabitur sit amet enim nec est finibus bibendum. Integer eget tellus vel eros malesuada pulvinar et id dolor. Donec augue ipsum, ullamcorper eu mattis eget, interdum et purus. Morbi et efficitur purus. Duis viverra nunc ipsum, vel dignissim ipsum pellentesque id. Sed turpis odio, ultrices non dolor vitae, interdum tempus ipsum. Nam vel vehicula diam.</p>"
+        "description": "<p>I partnered with three other front-end developers as well as an off-site team of back-end developers to help create this customizable apparel site. The bulk of my work involved writing CSS and adding the related classes to the back-end code, tweaking the code when necessary (for example, to add conditional logic). This project also inspired a <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://elevatedigitalcommerce.com/blog/from-comp-to-code-the-journey-of-a-button\">blog post</a>, written before we knew how much access we would have to the back-end&nbsp;templates.</p>"
     }
 ]

@@ -30,31 +30,6 @@ section {
     min-height: 100%;
 }
 
-h1 {
-    @include font-bold;
-    font-size: 14vw;
-    line-height: 1.1;
-    margin: 0 0 .5em 0;
-
-    @supports (font-variation-settings: normal) {
-        @include font-700;
-    }
-
-    @include breakpoint(tablet) {
-        font-size: 10vw;
-        margin-bottom: .5em;
-    }
-
-    @include breakpoint(laptop) {
-        font-size: 9vw;
-        margin-bottom: .125em;
-    }
-
-    @include breakpoint(widescreen) {
-        font-size: 6vw;
-    }
-}
-
 h2 {
     @include font-bold;
     font-size: 1.2em;
@@ -71,15 +46,13 @@ p {
 }
 
 a {
-    display: block;
-    color: $white;
-    text-decoration: none;
+    color: $black;
+    text-decoration: underline;
 
     &:hover {
-        text-decoration: underline;
+        color: rgba($black, .75);
     }
 }
-
 
 strong {
     @include font-bold;
