@@ -31,6 +31,6 @@
         "image1": "/images/hanesink.jpg",
         "role": "Front-End Developer",
         "date": "2016",
-        "description": "<p>I partnered with three other front-end developers as well as an off-site team of back-end developers to help create this customizable apparel site. The bulk of my work involved writing CSS and adding the related classes to the back-end code, tweaking the code when necessary (for example, to add conditional logic). This project also inspired a <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://elevatedigitalcommerce.com/blog/from-comp-to-code-the-journey-of-a-button\">blog post</a>, written before we knew how much access we would have to the back-end&nbsp;templates.</p>"
+        "description": "<p>I partnered with three other front-end developers as well as an off-site team of back-end developers to help create this customizable apparel site. The bulk of my work involved writing CSS and adding the related classes to the back-end code, tweaking the code when necessary (for example, to add conditional logic). The project inspired this <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://elevatedigitalcommerce.com/blog/from-comp-to-code-the-journey-of-a-button\">blog&nbsp;post</a>.</p>"
     }
 ]
