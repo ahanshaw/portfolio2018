@@ -16,6 +16,22 @@
 
     export default {
         name: 'app',
+        head: {
+            title: {
+                inner: 'Angela Hanshaw'
+            },
+            meta: [
+                { name: 'description', content: 'This is front-end developer Angela Hanshaw\'s portfolio. You otter take a look.' },
+                { name: 'twitter:title', content: 'Angela Hanshaw\'s Portfolio' },
+                { n: 'twitter:description', c: 'This is front-end developer Angela Hanshaw\'s portfolio. You otter take a look.'},
+                { itemprop: 'name', content: 'Angela Hanshaw\'s Portfolio' },
+                { itemprop: 'description', content: 'This is front-end developer Angela Hanshaw\'s portfolio. You otter take a look.' },
+                { property: 'og:title', content: 'Angela Hanshaw\'s Portfolio' },
+                { p: 'og:image', c: 'http://angelahanshaw.com/images/meta.jpg' },
+                { p: 'og:image:width', c: '1200' },
+                { p: 'og:image:height', c: '630' },
+            ]
+        },
         data () {
             return {
                 isScrolled: false,
