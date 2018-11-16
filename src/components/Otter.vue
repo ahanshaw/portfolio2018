@@ -14,6 +14,7 @@
 
 <script>
     import { bus } from './../main';
+    import { TweenMax, Elastic, Power1 } from 'greensock'
 
     export default {
         name: 'otter',
@@ -41,7 +42,7 @@
 
                 if (this.stopAnimation === false) {
                     tlAnimation.set(otter, {yPercent: 0});
-                    tlAnimation.to(otter, 1.5, {opacity: 1, yPercent: -60, ease: Elastic.easeOut.config(1, 0.3), repeat: 0}, 'otter');
+                    tlAnimation.to(otter, 1.5, {opacity: 1, yPercent: -65, ease: Elastic.easeOut.config(1.15, 0.3), repeat: 0}, 'otter');
                     tlAnimation.to(speech, .5, {opacity: 1, ease: Power1.easeInOut, delay: .5, repeat: 0}, 'otter');
                     tlAnimation.to(text, .5, {opacity: 1, ease: Power1.easeInOut, delay: .5, repeat: 0}, 'otter');
                     this.stopAnimation = true;
