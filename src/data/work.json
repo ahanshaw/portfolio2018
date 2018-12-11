@@ -32,5 +32,15 @@
         "role": "Front-End Developer",
         "date": "2016",
         "description": "<p>I partnered with three other front-end developers as well as an off-site team of back-end developers to help create this customizable apparel site. The bulk of my work involved writing CSS and adding the related classes to the back-end code, tweaking the code when necessary (for example, to add conditional logic). The project inspired this <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://elevatedigitalcommerce.com/blog/from-comp-to-code-the-journey-of-a-button\">blog&nbsp;post</a>.</p>"
+    },
+    {
+        "id": 4,
+        "title": "Soom",
+        "url": "https://www.soom.com/",
+        "platform": "Statamic",
+        "image1": "/images/soom.jpg",
+        "role": "Front-End Developer",
+        "date": "2018",
+        "description": "<p>This marketing site was coded to be very flexible, allowing the client to add a variety of content easily and to change how it is displayed without requiring template revisions. It includes a number of global variables the client can update in the admin as well as automatically generated subnavigation on main pages. Other highlights include an animated logo created with an SVG and Greensock as well as a map created with the Google Maps API.</p>"
     }
 ]
