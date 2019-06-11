@@ -7,7 +7,7 @@
         "image1": "/images/elevate.jpg",
         "image1alt": "Elevate homepage",
         "image2": "/images/elevate-code.jpg",
-        "image2alt": "code for the Elevte blog post template",
+        "image2alt": "code for the Elevate blog post template",
         "role": "Front-End Developer, Designer",
         "date": "2018",
         "description": "<p>I created all Statamic templates and the CSS for this agency website. Highlights include a show-more feature on the main blog page created using JSON and Javascript, performant images using srcset (and, of course, image optimization), and a pre-holiday planning checklist with animations created using Greensock. I also designed and built the blog&nbsp;pages.</p>"
