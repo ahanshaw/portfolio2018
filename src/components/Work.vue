@@ -107,10 +107,6 @@
                         border-top: 7px solid transparent;
                         border-left: 9px solid $black;
                         border-bottom: 7px solid transparent;
-
-                        @include breakpoint(laptop) {
-                            margin-top: -2px;
-                        }
                     }
 
                     &:hover {
