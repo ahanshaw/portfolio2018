@@ -9,6 +9,7 @@
                     <h2 v-if="project.url"><a :href="project.url" target="_blank" rel="noopener noreferrer">{{ project.title }}</a></h2>
                     <h2 v-if="!project.url">{{ project.title }}</h2>
                     <p><strong>Platform:</strong> {{ project.platform }}<br />
+                    <strong>Role:</strong> {{ project.role }}<br />
                     <strong>Date:</strong> {{ project.date }}</p>
                     <div v-html="project.description"></div>
                 </div>

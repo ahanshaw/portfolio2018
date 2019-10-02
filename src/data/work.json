@@ -1,5 +1,15 @@
 [
     {
+        "id": 4,
+        "title": "Strawdog Theatre",
+        "url": "https://www.strawdog.org/",
+        "platform": "Craft CMS",
+        "image1": "/images/strawdog.jpg",
+        "role": "Design, Front-End Development",
+        "date": "2019",
+        "description": "<p>I redesigned this theater company&#8217;s previous static site, reorganizing and adding content to enhance the user experience. I also developed it in Craft CMS for easy updating. The homepage is animated on first visit to draw the user in and hint at the dynamic nature of the company&#8217;s work.</p>"
+    },
+    {
         "id": 1,
         "title": "Elevate",
         "url": "https://www.elevatedigitalcommerce.com",
@@ -8,7 +18,7 @@
         "image1alt": "Elevate homepage",
         "image2": "/images/elevate-code.jpg",
         "image2alt": "code for the Elevate blog post template",
-        "role": "Front-End Developer, Designer",
+        "role": "Front-End Development, Design",
         "date": "2018",
         "description": "<p>I created all Statamic templates and the CSS for this agency website. Highlights include a show-more feature on the main blog page created using JSON and Javascript, performant images using srcset (and, of course, image optimization), and a pre-holiday planning checklist with animations created using Greensock. I also designed and built the blog&nbsp;pages.</p>"
     },
@@ -19,7 +29,7 @@
         "platform": "Craft CMS/Shopify",
         "image1": "/images/keratin-complex.jpg",
         "image1alt": "Keratin Complex consumer site homepage",
-        "role": "Front-End Developer",
+        "role": "Front-End Development",
         "date": "2019",
         "description": "<p>Built in Craft CMS, with Shopify integration to handle checkout, this ecommerce site was developed to sell the company&#8217;s consumer and professional products. I used vanilla Javascript and PostCSS to build the site, along with JSON and Javscript to sort and display the many hair colors available on the professional&nbsp;side.</p>"
     },
@@ -31,7 +41,7 @@
         "image1alt": "Seed Phytonutrients homepage",
         "image2": "/images/seed-scss.jpg",
         "image2alt": "Sass code for the Seed Phytonutrients product grid",
-        "role": "Front-End Developer",
+        "role": "Front-End Development",
         "date": "2018",
         "description": "<p>This marketing website was created to promote a new beauty brand prior to its ecommerce site launch. I created all Craft templates as well as the site&#8217;s CSS. Highlights include reusable components; a custom, accessible modal created with Javascript; and an animated search&nbsp;form.</p>"
     },
@@ -40,18 +50,8 @@
         "title": "HanesInk",
         "platform": "IBM Websphere",
         "image1": "/images/hanesink.jpg",
-        "role": "Front-End Developer",
+        "role": "Front-End Development",
         "date": "2016",
         "description": "<p>I partnered with three other front-end developers as well as an off-site team of back-end developers to help create this customizable apparel site. The bulk of my work involved writing CSS and adding the related classes to the back-end code, tweaking the code when necessary (for example, to add conditional logic). The project inspired this <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://elevatedigitalcommerce.com/blog/from-comp-to-code-the-journey-of-a-button\">blog&nbsp;post</a>.</p>"
-    },
-    {
-        "id": 4,
-        "title": "Soom",
-        "url": "https://www.soom.com/",
-        "platform": "Statamic/Craft CMS",
-        "image1": "/images/soom.jpg",
-        "role": "Front-End Developer",
-        "date": "2018/2019",
-        "description": "<p>I developed this marketing site to be very flexible, allowing the client to add a variety of content easily and to change how it is displayed without requiring template revisions. It also automatically generates the subnavigation on main pages. Other highlights include an animated logo created with an SVG and Greensock as well as a map created with the Google Maps API. Originally developed in Statamic, I later migrated it to Craft&nbsp;CMS.</p>"
     }
 ]
