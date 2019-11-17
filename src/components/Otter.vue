@@ -14,7 +14,7 @@
 
 <script>
     import { bus } from './../main';
-    import { TimelineMax, Elastic, Power1 } from 'greensock'
+    import { TimelineMax, Elastic, Power1, Power0 } from 'greensock'
 
     export default {
         name: 'otter',

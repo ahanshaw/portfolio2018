@@ -52,7 +52,7 @@
             handleScroll() {
                 var viewportHeight = window.innerHeight;
 
-                if (this.scrolled = window.scrollY > viewportHeight) {
+                if (this.scrolled == window.scrollY > viewportHeight) {
                     this.isScrolled = true;
                 }
                 else {
