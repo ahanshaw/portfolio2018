@@ -45,48 +45,37 @@
 
         &__container {
             @include container(1200px);
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
         }
 
         &__item {
+            flex: 0 0 calc(50% - 4em);
             margin-bottom: 4em;
 
             @include breakpoint(tablet) {
-                margin-bottom: 6em;
+                flex: 0 0 calc(50% - 2em);
+            }
+
+            @include breakpoint(mobile) {
+                flex: 0 0 100%;
             }
         }
 
         &__image {
             position: relative;
-
-            @include breakpoint(laptop) {
-                @include container(800px);
-            }
+            width: 100%;
+            border: 1px solid rgba($black, .1);
+            overflow: hidden;
 
             img {
                 display: block;
                 width: 100%;
-                border: 1px solid rgba($black, .1);
-            }
-
-            .image2 {
-                position: absolute;
-                top: 0;
-                left: 0;
-                width: 100%;
-                opacity: 0;
-                transition: opacity .5s ease;
             }
         }
 
         &__desc {
-
-            @include breakpoint(tablet) {
-                @include container(500px);
-            }
-
-            @include breakpoint(laptop) {
-                @include container(600px);
-            }
 
             h2 {
                 margin-top: 1.5em;

@@ -13,8 +13,8 @@
 </template>
 
 <script>
-    import { bus } from './../main';
-    import { TimelineMax, Elastic, Power1, Power0 } from 'greensock'
+    import { bus } from './../main'
+    import { TimelineMax, Elastic, Power1 } from 'greensock'
 
     export default {
         name: 'otter',

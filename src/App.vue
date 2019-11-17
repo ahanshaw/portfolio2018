@@ -8,7 +8,7 @@
 </template>
 
 <script>
-    import { bus } from './main';
+    import { bus } from './main'
     import Navigation from './components/Navigation.vue'
     import Intro from './components/Intro.vue'
     import Work from './components/Work.vue'

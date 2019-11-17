@@ -16,6 +16,7 @@
 
 <script>
     import Otter from './Otter.vue'
+    import { TimelineMax, Power0 } from 'greensock'
 
     export default {
         name: 'intro',
