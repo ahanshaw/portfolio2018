@@ -51,15 +51,19 @@
         }
 
         &__item {
-            flex: 0 0 calc(50% - 4em);
+            flex: 0 0 100%;
             margin-bottom: 4em;
 
             @include breakpoint(tablet) {
                 flex: 0 0 calc(50% - 2em);
             }
 
-            @include breakpoint(mobile) {
-                flex: 0 0 100%;
+            @include breakpoint(laptop) {
+                flex: 0 0 calc(50% - 3em);
+            }
+
+            @include breakpoint(desktop) {
+                flex: 0 0 calc(50% - 4em);
             }
         }
 
