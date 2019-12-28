@@ -51,7 +51,7 @@
 
     .intro {
         position: relative;
-        height: 100%;
+        min-height: 100%;
         padding: 3em 0 0 0;
         background-color: $black;
         z-index: 100;
