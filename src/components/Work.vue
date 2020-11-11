@@ -16,7 +16,7 @@
                 </div>
             </div>
         </div>
-        <h2>Probono Work</h2>
+        <h2>Pro Bono Work</h2>
         <div class="work__container">
             <div v-for="(project, index) in probonoList" :key="index" class="work__item">
                 <div class="work__image">
