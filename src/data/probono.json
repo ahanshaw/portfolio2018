@@ -1,16 +1,5 @@
 [
     {
-        "id": 1,
-        "title": "Strawdog Theatre",
-        "url": "https://www.strawdog.org/",
-        "platform": "Craft CMS",
-        "image1": "/images/strawdog.jpg",
-        "image1alt": "Strawdog Theatre Company homepage",
-        "role": "Design, Front-End Development",
-        "date": "2019",
-        "description": "<p>In this project, I redesigned a theater company&#8217;s previous static site, reorganizing and adding content to enhance the user experience. I also developed it in Craft CMS for easy updating. The homepage is animated on first visit to draw the user in and hint at the dynamic nature of the company&#8217;s&nbsp;work.</p>"
-    },
-    {
         "id": 2,
         "title": "Please Stay",
         "url": "https://pleasestay.us/",
@@ -20,5 +9,16 @@
         "role": "Front-End Development",
         "date": "2020",
         "description": "<p>A partnership between the Born This Way Foundation, which supports the mental health of young people, and Find Your Anchor, a grassroots movement aimed at suicide prevention, awareness, and education, this site provides resources for support as well as evidence-based self-care tips. It includes a number of animated elements, including Easter egg surprises, rotating lists, and SVGs that draw visitors&#8217;&nbsp;attention.</p>"
+    },
+    {
+        "id": 1,
+        "title": "Strawdog Theatre",
+        "url": "https://www.strawdog.org/",
+        "platform": "Craft CMS",
+        "image1": "/images/strawdog.jpg",
+        "image1alt": "Strawdog Theatre Company homepage",
+        "role": "Design, Front-End Development",
+        "date": "2019",
+        "description": "<p>In this project, I redesigned a theater company&#8217;s previous static site, reorganizing and adding content to enhance the user experience. I also developed it in Craft CMS for easy updating. The homepage is animated on first visit to draw the user in and hint at the dynamic nature of the company&#8217;s&nbsp;work.</p>"
     }
 ]
