@@ -41,6 +41,17 @@ h2 {
     }
 }
 
+h3 {
+    @include font-bold;
+    font-size: 1em;
+    text-transform: uppercase;
+    margin: 0 0 .5em 0;
+
+    @supports (font-variation-settings: normal) {
+        @include font-800;
+    }
+}
+
 p {
     margin: 0 0 1em 0;
 }

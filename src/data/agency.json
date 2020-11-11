@@ -1,0 +1,45 @@
+[
+    {
+        "id": 5,
+        "title": "Automated Business Designs",
+        "url": "https://www.abd.net/",
+        "platform": "Wordpress",
+        "image1": "/images/abd.jpg",
+        "image1alt": "ABD homepage",
+        "role": "Front-End Development",
+        "date": "2020",
+        "description": "<p>Designed for a staffing software company, this website includes extensive use of animation to keep visitors engaged, including an animated splash screen and sliding decorative elements. I created all of the HTML, CSS, and Javascript before turning the site over to a back-end engineer for implementation into Wordpress.</p>"
+    },
+    {
+        "id": 3,
+        "title": "Lane Venture",
+        "url": "https://www.laneventure.com/",
+        "platform": "Custom CMS",
+        "image1": "/images/lane-venture.jpg",
+        "image1alt": "Lane Venture homepage",
+        "role": "Front-End Development",
+        "date": "2019",
+        "description": "<p>I worked with an external back-end development team to create this marketing website. I supplied all HTML/CSS files and created all the interactive JavaScript elements, including the carousels, swatch modals, and product look customization&nbsp;toggles.</p>"
+    },
+    {
+        "id": 2,
+        "title": "Keratin Complex",
+        "url": "https://keratincomplex.com/",
+        "platform": "Craft CMS/Shopify",
+        "image1": "/images/keratin-complex.jpg",
+        "image1alt": "Keratin Complex consumer site homepage",
+        "role": "Front-End Development",
+        "date": "2019",
+        "description": "<p>Built in Craft CMS, with Shopify integration to handle checkout, this ecommerce site was developed to sell the company&#8217;s consumer and professional products. I used vanilla JavaScript and PostCSS to build the site, along with JSON to sort and display the many hair colors available on the professional&nbsp;side.</p>"
+    },
+    {
+        "id": 1,
+        "title": "Elevate",
+        "platform": "Statamic",
+        "image1": "/images/elevate.jpg",
+        "image1alt": "Elevate homepage",
+        "role": "Front-End Development, Design",
+        "date": "2018",
+        "description": "<p>I created all Statamic templates and the CSS for this agency website. Highlights include a show-more feature on the main blog page created using JSON and JavaScript, performant images using srcset (and, of course, image optimization), and a pre-holiday planning checklist with animations created using Greensock. I also designed and built the blog&nbsp;pages.</p>"
+    }
+]

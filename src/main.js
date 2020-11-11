@@ -8,7 +8,6 @@ export const bus = new Vue();
 Vue.config.productionTip = false
 
 Vue.use(VueHead)
-
 Vue.use(VueScrollTo)
 
 new Vue({
