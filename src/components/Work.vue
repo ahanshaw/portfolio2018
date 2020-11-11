@@ -1,8 +1,8 @@
 <template>
     <section id="work" class="work">
-        <h2>Probono Work</h2>
+        <h2>Agency Work</h2>
         <div class="work__container">
-            <div v-for="(project, index) in probonoList" :key="index" class="work__item">
+            <div v-for="(project, index) in agencyList" :key="index" class="work__item">
                 <div class="work__image">
                     <img :src="project.image1" :alt="project.image1alt" />
                 </div>
@@ -16,9 +16,9 @@
                 </div>
             </div>
         </div>
-        <h2>Agency Work</h2>
+        <h2>Probono Work</h2>
         <div class="work__container">
-            <div v-for="(project, index) in agencyList" :key="index" class="work__item">
+            <div v-for="(project, index) in probonoList" :key="index" class="work__item">
                 <div class="work__image">
                     <img :src="project.image1" :alt="project.image1alt" />
                 </div>
