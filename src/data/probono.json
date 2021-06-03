@@ -17,7 +17,7 @@
         "platform": "Craft CMS",
         "image1": "/images/strawdog.jpg",
         "image1alt": "Strawdog Theatre Company homepage",
-        "role": "Design, Front-End Development",
+        "role": "Design, Development",
         "date": "2019",
         "description": "<p>In this project, I redesigned a theater company&#8217;s previous static site, reorganizing and adding content to enhance the user experience. I also developed it in Craft CMS for easy updating. The homepage is animated on first visit to draw the user in and hint at the dynamic nature of the company&#8217;s&nbsp;work.</p>"
     }
