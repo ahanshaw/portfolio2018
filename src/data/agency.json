@@ -38,7 +38,7 @@
         "platform": "Statamic",
         "image1": "/images/elevate.jpg",
         "image1alt": "Elevate homepage",
-        "role": "Front-End Development, Design",
+        "role": "Development, Design",
         "date": "2018",
         "description": "<p>I created all Statamic templates and the CSS for this agency website. Highlights include a show-more feature on the main blog page created using JSON and JavaScript, performant images using srcset (and, of course, image optimization), and a pre-holiday planning checklist with animations created using Greensock. I also designed and built the blog&nbsp;pages.</p>"
     }
