@@ -6,7 +6,6 @@
                 <p>I created this site using Vue.js and Vue CLI. The work items are generated from JSON files to make adding new projects&nbsp;easy.</p>
                 <p>Most animations use CSS transitions, except for my otter pal, who was created with an SVG and&nbsp;Greensock.</p>
                 <p>The font family is either Avenir Next Variable, if your browser supports variable fonts, or Open Sans, if it&nbsp;doesn&#8217;t.</p>
-                <p>The site is responsive (of course!), and was built&nbsp;mobile-first. It was tested in IE11, Edge, Chrome, Safari, and Firefox, as well as on iPhone and&nbsp;iPad.</p>
                 <p>Hosted by <a target="_blank" rel="noopener noreferrer" href="https://www.netlify.com/">Netlify</a> from my Github repo (CD for the&nbsp;win!).</p>
             </div>
             <div class="about__item">
