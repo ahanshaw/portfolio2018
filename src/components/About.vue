@@ -10,7 +10,7 @@
             </div>
             <div class="about__item">
                 <h2>About Me</h2>
-                <p>I&#8217;ve worked in web and print design, writing, and editing, but front-end development with a focus on accessibility and good&nbsp;UX has always had my heart and has been my main focus for the last eight years. Aside from the basics (HTML, CSS, and JavaScript), I have React and Vue in my toolbox, and I&#8217;ve created sites using Craft CMS, WordPress, Shopify, Opimizely/Episerver, and Umbraco.</p>
+                <p>I&#8217;ve worked in web and print design, writing, and editing, but front-end development with a focus on accessibility and good&nbsp;UX has always had my heart, and has been my main focus for the last eight years. In addition to the basics (HTML, CSS, and JavaScript), I have React and Vue in my toolbox, and I&#8217;ve created sites using Craft CMS, WordPress, Shopify, Opimizely/Episerver, and Umbraco.</p>
                 <p>I am currently a Senior Front-End Developer at <a target="_blank" rel="noopener noreferrer" href="https://adagetechnologies.com/">Adage Technologies</a>. Previously, I was a Front-End Engineer at <a target="_blank" rel="noopener noreferrer" href="https://cliquestudios.com/">Clique Studios</a> and a Senior Interactive Developer at <a target="_blank" rel="noopener noreferrer" href="https://www.elevatestudios.com">Elevate</a>. I was also a mentor for new front-end developers at Designation (now Flatiron School) UI/UX design bootcamp.</p>
                 <p>And yes, I really, really like both otters and spectacularly bad&nbsp;puns.</p>
             </div>
